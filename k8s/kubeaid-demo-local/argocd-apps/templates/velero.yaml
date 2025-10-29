@@ -16,7 +16,7 @@ spec:
       targetRevision: HEAD
       helm:
         valueFiles:
-          - $values/k8s/kubeaid-demo-local/values-velero.yaml
+          - $values/k8s/kubeaid-demo-local/argocd-apps/values-velero.yaml
     - repoURL: https://github.com/asifulhaque786/kubeaid-config
       targetRevision: HEAD
       ref: values
