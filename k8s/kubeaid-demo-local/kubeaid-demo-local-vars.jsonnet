@@ -21,13 +21,12 @@
     requests: { cpu: "200m", memory: "500Mi" },
   },
   prometheus_scrape_namespaces: [
-    "monitoring",
+    "velero",
   ],
   prometheus_scrape_default_namespaces: [
     "argocd",
     "sealed-secrets",
     "cert-manager",
-    "monitoring",
     
   ],
   prometheus+: {
