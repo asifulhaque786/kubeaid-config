@@ -13,8 +13,4 @@ velero:
     enabled: true
     serviceMonitor:
       enabled: true
-volumeSnapshotClasses:
-  - name: zfs-disk-snapshotclass
-    driver: zfs.csi.openebs.io
-    deletionPolicy: Delete
 
