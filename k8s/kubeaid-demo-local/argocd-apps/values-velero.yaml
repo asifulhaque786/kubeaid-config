@@ -1,0 +1,20 @@
+networkpolicies: false
+LoadCustomCRDs: true
+schedule:
+  includedNamespaces:
+    - "relate"
+  daily: true
+  dailyTTL: 72h
+  weekly: true
+  weeklyTTL: 168h
+  sixhourly: false
+velero:
+  metrics:
+    enabled: true
+    serviceMonitor:
+      enabled: true
+volumeSnapshotClasses:
+  - name: zfs-disk-snapshotclass
+    driver: zfs.csi.openebs.io
+    deletionPolicy: Delete
+
