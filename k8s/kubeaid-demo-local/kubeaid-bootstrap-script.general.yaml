@@ -45,6 +45,6 @@ argocd:
 
   # # ArgoCD KubeAid config repository URL (in HTTPs/SSH syntax).
   # # If not set, defaults to forkURLs.kubeaidConfig
-kubeaidConfigURL: https://github.com/asifulhaque786/kubeaid-config
+  kubeaidConfigURL: https://github.com/asifulhaque786/kubeaid-config
 
 

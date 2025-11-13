@@ -52,7 +52,6 @@ spec:
       - sealed-secrets
       - system
       - traefik
-      - velero
   ruleSelector: {}
   scrapeConfigNamespaceSelector: {}
   scrapeConfigSelector: {}
